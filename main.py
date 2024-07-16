@@ -31,7 +31,6 @@ class AddressBook:
         for contact in self.contacts:
             print(f"Name: {contact.name}, Email: {contact.email}, Phone: {contact.phone}")
 
-# Приклад використання
 def main():
     address_book = AddressBook()
     address_book.load_data()
